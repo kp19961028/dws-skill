@@ -1,0 +1,13 @@
+# Runtime data and credentials never belong in this repository
+.env
+.env.*
+!.env.example
+.dws/
+.data/
+credentials*
+*token*.json
+*secret*.json
+*.log
+__pycache__/
+.DS_Store
+work/
